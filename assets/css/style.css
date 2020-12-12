@@ -1,13 +1,25 @@
+/*
+    This css file is for index.html
+*/
+
+/*
+  style for all element
+*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/*
+  body element
+*/
 body {
   background-color: #d9dcd6;
 }
-
+/*
+  styling for header and any tag inside of header
+*/
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -41,16 +53,22 @@ body {
   display: inline-block;
   margin-left: 25px;
 }
-
+/*
+  all hyperlink style
+*/
 a {
   color: #ffffff;
   text-decoration: none;
 }
-
+/*
+  all p tag
+*/
 p {
   font-size: 16px;
 }
-
+/*
+  header img
+*/
 .hero {
   height: 800px;
   width: 100%;
@@ -59,7 +77,9 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/*
+  description content
+*/
 .float-left {
   float: left;
   margin-right: 25px;
@@ -76,6 +96,27 @@ p {
   margin-left: 20px;
 }
 
+.info {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.info img {
+  max-height: 200px;
+}
+
+.info h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/*
+  benefit content
+*/
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -102,25 +143,9 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
-
-.info {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.info img {
-  max-height: 200px;
-}
-
-.info h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
+/*
+footer content
+*/
 .footer {
   padding: 30px;
   clear: both;
